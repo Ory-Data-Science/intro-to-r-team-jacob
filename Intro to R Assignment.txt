@@ -16,3 +16,11 @@
 > body_mass_lbs <- 3.5
 > body_mass_kg <- body_mass_lbs/2.2046
 > print(body_mass_kg)
+
+#Exercise 3
+
+grams <- 250
+number <- 3
+biomass <- grams * number
+biomass <- biomass/1000
+print(biomass)
