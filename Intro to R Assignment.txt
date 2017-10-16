@@ -43,3 +43,4 @@ square_root_rounded <- round(sqrt(2.6), 2)
 NPP_total <- site1_npp_day + site2_npp_day
 NPP_difference <- abs(site1_npp_day - site2_npp_day)
 NPP_total_year <- 365 * (NPP_total)
+NPP_total_day <- NPP_total
