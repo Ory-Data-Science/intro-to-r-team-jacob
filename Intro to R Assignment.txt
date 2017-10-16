@@ -28,6 +28,7 @@ indiv_g <- grams
 total_kg <- biomass
 
 #Exercise 4
+
 abs(-15.5)
 round(4.483847, 2)
 round(3.8)
@@ -36,3 +37,9 @@ tolower(SPECIES)
 square_root <- sqrt(2.6)
 square_root_rounded <- round(square_root, 2)
 square_root_rounded <- round(sqrt(2.6), 2)
+
+#Exercise 5
+
+NPP_total <- site1_npp_day + site2_npp_day
+NPP_difference <- abs(site1_npp_day - site2_npp_day)
+NPP_total_year <- 365 * (NPP_total)
