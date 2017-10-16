@@ -24,3 +24,5 @@ number <- 3
 biomass <- grams * number
 biomass <- biomass/1000
 print(biomass)
+indiv_g <- grams
+total_kg <- biomass
